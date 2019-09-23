@@ -1,0 +1,34 @@
+
+body {
+  background-image: url("https://wallpapersmug.com/download/3840x2160/3d75fe/minimal-god-of-war-kratos.jpg");
+
+ background-repeat: no-repeat;
+  background-position: center ;
+  background-attachment: fixed;
+  background-size: 1980px 1080px ;
+   background-color: black;
+
+    -webkit-animation: mymove 30s infinite;  0
+  animation: mymove 30s infinite;
+}
+
+
+@-webkit-keyframes mymove {
+  50% {background-position: right;}
+}
+
+@keyframes mymove {
+  50% {background-position: right;}
+} 
+
+h1{
+  color: white;
+  text-align: center;
+}
+.links {
+	color:white;
+	  text-decoration: none;
+
+}
+
+
